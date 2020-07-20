@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	line-height: 30px;
+}
+header{
+	background-color: #490245;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+header h1{
+	color: #16C5A9;
+	font-size: 30px
+}
+header img{
+	border-radius: 200px;
+	border: 15px solid #16C5A9;
+}
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px
+}
+main img {
+	max-width:100%;
+	border: 5px solid #16C5A9;
+}
+h2{
+	font-size: 20px;
+	color:#16C5A9;
+}
+p{
+	color:#490245;
+}
+a{
+	color: #490245;
+}
+a:hover{
+	color: #16C5A9;
+}
+#leftbox{
+	float:left;
+	width:50%;
+	height: 550px
+}
+#rightbox{
+	float: right;
+	width: 50%;
+	height: 550px
+}
+h2.other{
+	padding-top: 20px
+}

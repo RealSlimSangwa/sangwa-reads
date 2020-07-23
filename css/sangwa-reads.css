@@ -1,8 +1,10 @@
 body{
 	margin: 0;
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Red Rose', cursive;
 	font-size: 20px;
 	line-height: 30px;
+	background-image: url("https://i.pinimg.com/originals/c9/ca/22/c9ca22618538d293331834b2ddf5c36a.jpg");
+	
 }
 header{
 	background-color: #490245;
@@ -80,6 +82,9 @@ footer{
 	background-color: #16C5A9;
 	text-align: center;
 	padding: 50px; 
+}
+p.footer{
+	color: white;
 }
 a.top{
 	text-decoration-line: none;

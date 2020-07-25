@@ -18,7 +18,7 @@ header h1{
 }
 header img{
 	border-radius: 200px;
-	border: 15px solid #16C5A9;
+	border: 5px solid #16C5A9;
 }
 main{
 	max-width: 800px;
@@ -30,7 +30,7 @@ main img {
 	border: 5px solid #16C5A9;
 }
 h2{
-	font-size: 25px;
+	font-size: 30px;
 	color:#16C5A9;
 }
 p{
@@ -91,4 +91,44 @@ a.top{
 }
 a.top:hover{
 	color: grey;
+	/*position shifts*/
+}
+img.julieimg{
+	transform: translateY(70px);
+}
+p.juliecap{
+	transform: translateY(70px);
+}
+p.gamecap{
+	transform: translateY(-5px);
+}
+p.clashcap{
+	transform: translateY(-10px);
+}
+p.fuckcap{
+	transform: translateY(-10px);
+}
+p.aboutcap{
+	transform: translateY(-19px);
+}
+h2.about{
+	transform: translateY(-15px);
+}
+h2.currently{
+	transform: translateY(0px);
+}
+h2.toppicks{
+	transform: translateY(-35px);
+}
+p.wallflowercap{
+	transform: translateY(25px);
+}
+p.bindycap{
+	transform: translateY(-10px);
+}
+p.jokecap{
+	transform: translateY(-15px);
+}
+p.godscap{
+	transform: translateY(15px);
 }

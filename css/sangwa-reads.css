@@ -32,6 +32,10 @@ main img {
 h2{
 	font-size: 30px;
 	color:#16C5A9;
+	background-color: #EAEAEC;
+}
+main p{
+	background-color: #EAEAEC;
 }
 p{
 	color:#490245;
@@ -57,6 +61,7 @@ h2.other{
 }
 ul{ 
 	clear: both;
+	background-color: #EAEAEC;
 }
 .row{
 	background-color: #16C5A9; 

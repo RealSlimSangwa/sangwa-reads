@@ -7,7 +7,8 @@ body{
 	
 }
 header{
-	background-color: #422747;
+	background-color: #331842;
+	border: 5px solid #16C5A9;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px
@@ -107,10 +108,10 @@ p.juliecap{
 p.gamecap{
 	transform: translateY(-5px);
 }
-p.clashcap{
+p.leftbookcap{
 	transform: translateY(-10px);
 }
-p.fuckcap{
+p.rightbookcap{
 	transform: translateY(-10px);
 }
 p.aboutcap{

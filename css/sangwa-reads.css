@@ -7,19 +7,23 @@ body{
 	
 }
 header{
-	background-color: #331842;
-	border: 5px solid #16C5A9;
+	/* background-color: #FFFFFF;*/
+	border: 5px solid #000000;
+	background-image: url("file:///C:/Users/sangw/Documents/Website/sangwa-reads/img2/header.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px
 }
 header h1{
-	color: #16C5A9;
-	font-size: 35px
+	color: white;
+	font-size: 35px;
+	text-shadow: 2px 2px black;
 }
 header img{
 	border-radius: 200px;
-	border: 5px solid #16C5A9;
+	border: 5px solid #000000;
 }
 main{
 	max-width: 800px;
@@ -28,24 +32,27 @@ main{
 }
 main img {
 	max-width:100%;
-	border: 5px solid #16C5A9;
+	border: 5px solid #000000;
 }
 h2{
 	font-size: 30px;
-	color:#16C5A9;
+	color:#000000;
 	background-color: #EAEAEC;
 }
 main p{
 	background-color: #EAEAEC;
 }
 p{
-	color:#490245;
+	color:#000000;
 }
-a{
-	color: #490245;
+a.top{
+	color: #FFFFFF;
 }
-a:hover{
-	color: #16C5A9;
+a.a2{
+	color: black;
+}
+a.a2:hover{
+	color: grey;
 }
 #leftbox{
 	float:left;
@@ -65,7 +72,7 @@ ul{
 	background-color: #EAEAEC;
 }
 .row{
-	background-color: #16C5A9; 
+	background-color: #000000; 
 	color: #490245;
 }
 .row:after{
@@ -85,7 +92,7 @@ ul{
 	margin-left: 0;
 }
 footer{
-	background-color: #16C5A9;
+	background-color: #000000;
 	text-align: center;
 	padding: 50px; 
 }

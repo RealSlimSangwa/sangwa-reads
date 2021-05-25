@@ -39,6 +39,7 @@ h2{
 	color:#000000;
 	background-color: #EAEAEC;
 }
+
 main p{
 	background-color: #EAEAEC;
 }
@@ -53,6 +54,12 @@ a.a2{
 }
 a.a2:hover{
 	color: grey;
+}
+div{
+	background-color: #EAEAEC;
+}
+div.col{
+	background-color: black;
 }
 #leftbox{
 	float:left;
@@ -81,7 +88,7 @@ ul{
 	clear: both;
 }
 .col{
-	border: 4px dashed rgba(0,0,0,.2);
+	border: 4px dashed rgba(234, 234, 236,.2);
 	padding-bottom: 10px;
 	float: left;
 	margin-left: 20px;
@@ -110,16 +117,19 @@ img.julieimg{
 	transform: translateY(70px);
 }
 p.juliecap{
-	transform: translateY(60px);
+	transform: translateY(-30px);
+}
+p.julietext{
+	transform: translateY(-40px);
 }
 p.gamecap{
-	transform: translateY(-5px);
+	transform: translateY(-25px);
 }
 p.leftbookcap{
-	transform: translateY(-10px);
+	transform: translateY(-25px);
 }
 p.rightbookcap{
-	transform: translateY(-4px);
+	transform: translateY(-25px);
 }
 p.aboutcap{
 	transform: translateY(-19px);
@@ -130,9 +140,6 @@ h2.about{
 h2.currently{
 	transform: translateY(0px);
 }
-h2.toppicks{
-	transform: translateY(-35px);
-}
 p.wallflowercap{
 	transform: translateY(25px);
 }
@@ -140,14 +147,24 @@ p.bindycap{
 	transform: translateY(-10px);
 }
 p.jokecap{
-	transform: translateY(-15px);
+	transform: translateY(-25px);
 }
 p.clashcap{
 	transform: translateY(-4px);
 }
-p.afuck{
-	transform: translateY(7px);
+p.afucktext{
+	transform: translateY(-30px);
+}
+p.fuckcap{
+	transform: translateY(-30px);
 }
 p.swords{
 	transform: translateY(0px);
+}
+
+/* contacts page */
+
+p.contactinfo{
+	background-color: #EAEAEC;
+
 }

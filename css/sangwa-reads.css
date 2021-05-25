@@ -153,10 +153,13 @@ p.clashcap{
 	transform: translateY(-4px);
 }
 p.afucktext{
-	transform: translateY(-30px);
+	transform: translateY(-100px);
 }
 p.fuckcap{
 	transform: translateY(-30px);
+}
+img.fuckimg{
+	transform: translateY(-100px);
 }
 p.swords{
 	transform: translateY(0px);

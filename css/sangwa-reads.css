@@ -51,6 +51,7 @@ a.top{
 }
 a.a2{
 	color: black;
+	text-decoration: none;
 }
 a.a2:hover{
 	color: grey;
@@ -148,11 +149,14 @@ p.leftbookcap{
 img.leftbookimg{
 	z-index: 1;
 }
+
+/* book descriptions */
+
 p.leftbookdes{
-	transform: translateY(-465px);
+	transform: translateY(-455px);
 	text-align: left;
 	width: 260px;
-	height: 400px;
+	height: 380px;
 	z-index: -1;
 	opacity: 0;
 }
@@ -166,11 +170,70 @@ p.rightbookdes{
 	transform: translateY(-465px);
 	text-align: left;
 	width: 260px;
-	height: 400px;
+	height: 390px;
 	z-index: -1;
 	opacity: 0;
 }
+
 p.rightbookdes:hover{
+	opacity: 100;
+}
+
+p.gamedes{
+		transform: translateY(-480px);
+	text-align: left;
+	width: 260px;
+	height: 405px;
+	z-index: -1;
+	opacity: 0;
+}
+p.gamedes:hover{
+	opacity: 100;
+}
+p.juliedes{
+		transform: translateY(-520px);
+	text-align: left;
+	width: 280px;
+	height: 410px;
+	z-index: -1;
+	opacity: 0;
+}
+p.juliedes:hover{
+	opacity: 100;
+}
+p.jokedes{
+		transform: translateY(-490px);
+	text-align: left;
+	width: 280px;
+	height: 415px;
+	z-index: -1;
+	opacity: 0;
+}
+p.jokedes:hover{
+	opacity: 100;
+}
+
+p.afuckdes{
+		transform: translateY(-490px);
+	text-align: left;
+	width: 280px;
+	height: 415px;
+	z-index: -1;
+	opacity: 0;
+}
+p.afuckdes:hover{
+	opacity: 100;
+}
+
+p.adancedes{
+		transform: translateY(-490px);
+	text-align: left;
+	width: 280px;
+	height: 415px;
+	z-index: -1;
+	opacity: 0;
+}
+p.adancedes:hover{
 	opacity: 100;
 }
 img.rightbookimg{
@@ -188,7 +251,7 @@ h2.about{
 
 
 h2.currently{
-	transform: translateY(0px);
+	transform: translateY(-30px);
 }
 p.wallflowercap{
 	transform: translateY(25px);
@@ -219,6 +282,9 @@ p.swords{
 }
 p.adancetext{
 	transform: translateY(-40px);
+}
+p.adancecap{
+	transform: translateY(-30px);
 }
 
 /* contacts page */

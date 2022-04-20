@@ -149,6 +149,9 @@ p.leftbookcap{
 img.leftbookimg{
 	z-index: 1;
 }
+p.note{
+	transform: translateY(-40px);
+}
 
 /* book descriptions */
 

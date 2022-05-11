@@ -62,6 +62,16 @@ div{
 div.col{
 	background-color: black;
 }
+
+
+.mobileShow { display: none;}
+/* Smartphone Portrait and Landscape */
+ @media only screen
+ and (min-device-width : 320px)
+ and (max-device-width : 480px){ .mobileShow { display: inline;}}
+
+
+
 #leftbox{
 	float:left;
 	width:50%;
@@ -148,9 +158,6 @@ p.leftbookcap{
 }
 img.leftbookimg{
 	z-index: 1;
-}
-p.note{
-	transform: translateY(-40px);
 }
 
 /* book descriptions */

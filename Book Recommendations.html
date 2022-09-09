@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Favourite Book Quotes</title>
+	<link rel="stylesheet" type="text/css" href="css/sangwa-reads.css">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class = container>
+		<form onsubmit="sendEmail(); reset(); return false;">
+			<h1> Send me your book recommendations! </h1>
+			<input type="text" name="" placeholder="Your Name" required>
+			<input type="text" email="" placeholder="Email" required>
+			<input type="text" book="" placeholder="What book do you recommend?" required>
+			<textarea id= "whythisbook" rows="4" placeholder="Why this book? (Optional)"></textarea>
+			<button type="submit">Send</button>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
+	<script type="text/javascript">
+		function sendEmail(){
+			Email.send({
+			    Host : "smtp.gmail.com",
+			    Username : "wakuba97@gmail.com",
+			    Password : "Dudedude12/",
+			    To : 'sangwasimwaka@gmail.com',
+			    From : document.getElementById("email").value,
+			    Subject : "Book recommendation",
+			    Body : "Name: " + document.getElementById("name").value
+			    + "<br> Email: " + document.getElementById("email").value
+			    + "<br> Book: " + document.getElementById("book").value
+			    + "<br> Why?: " + document.getElementById("whythisbook").value
+			}).then(
+			  message => alert(Book Recommendation Sent)
+			);
+		}
+	</script>
+</body>

@@ -11,21 +11,21 @@
 	<div class = container>
 		<form onsubmit="sendEmail(); reset(); return false;">
 			<h1> Send me your book recommendations! </h1>
-			<input type="text" name="" placeholder="Your Name" required>
-			<input type="text" email="" placeholder="Email" required>
-			<input type="text" book="" placeholder="What book do you recommend?" required>
+			<input type="text" id="name" placeholder="Your Name" required>
+			<input type="text" id="email" placeholder="Email" required>
+			<input type="text" id="book" placeholder="What book do you recommend?" required>
 			<textarea id= "whythisbook" rows="4" placeholder="Why this book? (Optional)"></textarea>
 			<button type="submit">Send</button>
 		</form>
 	</div>
 
 	<script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
-	<script type="text/javascript">
+	<script>
 		function sendEmail(){
 			Email.send({
 			    Host : "smtp.gmail.com",
 			    Username : "wakuba97@gmail.com",
-			    Password : "Dudedude12/",
+			    Password : "wakubasangwani",
 			    To : 'sangwasimwaka@gmail.com',
 			    From : document.getElementById("email").value,
 			    Subject : "Book recommendation",
@@ -34,7 +34,7 @@
 			    + "<br> Book: " + document.getElementById("book").value
 			    + "<br> Why?: " + document.getElementById("whythisbook").value
 			}).then(
-			  message => alert(Book Recommendation Sent)
+			  message => alert("Book Recommendation Sent") 
 			);
 		}
 	</script>
